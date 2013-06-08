@@ -1,0 +1,3 @@
+
+	INTEGER		:: NX, NY, M
+	PARAMETER (NX=43, NY=391, M=NX*NY)
