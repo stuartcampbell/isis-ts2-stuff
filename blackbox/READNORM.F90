@@ -64,9 +64,9 @@
 	CALL readtime(10,tally,cos_bin,tm,tm_tally,tm_err,dele)
 !	CALL readenergy(11,tally,cos,en,en_tally,en_err)	
 		
-	npratio = 3.75d14									! n/p ratio
+	npratio = 3.75d14						! n/p ratio
 	Sr = 2.0d0 * 3.1415926d0 * (1.0d0 - 0.87d0)			! Solid angle
-	Hz = 10.d0											! frequency
+	Hz = 10.d0							! frequency
 
 	DO is = 1,9
 
